@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Futuristic Developer</title>
+    <meta name="description" content="Professional portfolio showcasing modern web development skills">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Portfolio</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a> <!-- Fixed link -->
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Background Blobs -->
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-name">
+                        <span class="typing-text" id="typing-text"></span>
+                        <span class="cursor" id="cursor">|</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Full Stack Developer & creative Designer</h2>
+                    <p class="hero-description">
+                        Passionate about creating innovative digital experiences that blend cutting-edge technology 
+                        with beautiful design. Specializing in modern web development and user-centered design principles.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn btn-primary">Learn More</a>
+                        <a href="https://github.com/Aishvaryasai-05" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://drive.google.com/file/d/1BJt1DCPI-Fn4-aLQPBXIgq_r_PfQ8omT/view?usp=drivesdk" target="_blank" class="btn btn-secondary">
+                            <i class="fas fa-file-pdf"></i> Resume
+                        </a>
+                        <a href="https://www.linkedin.com/in/ayinam-aishwarya-sai-5b9a86292" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="https://uploads.onecompiler.io/43pdbrrr7/43pknn543/profile2-removebg-preview.png" alt="Profile" class="profile-image">
+                        <div class="glow-ring"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        Welcome to my digital space! I'm a passionate full-stack developer with a keen eye for design 
+                        and a love for creating exceptional user experiences. With expertise in modern web technologies, 
+                        I bridge the gap between functionality and aesthetics.
+                    </p>
+                    <p class="about-paragraph">
+                        My journey in technology began with curiosity and has evolved into a profession I'm truly 
+                        passionate about. I believe in continuous learning, clean code, and the power of collaboration 
+                        to build amazing digital products.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Skills</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3 class="skill-title">JavaScript</h3>
+                    <p class="skill-description">Modern ES6+ JavaScript, TypeScript, and advanced programming concepts</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3 class="skill-title">Frontend Frameworks</h3>
+                    <p class="skill-description">React, Vue.js, Angular, and modern frontend development</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 class="skill-title">Backend Development</h3>
+                    <p class="skill-description">Node.js, Python, Express, FastAPI, and RESTful APIs</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="skill-title">Database Management</h3>
+                    <p class="skill-description">MongoDB</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h3 class="skill-title">empty skill</h3>
+                    <p class="skill-description">Need to write skill</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="skill-title">UI/UX Design</h3>
+                    <p class="skill-description">Figma</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">my Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Junior Developer</h3>
+                        <h4 class="timeline-company">Seeking to get opportunity in KHUB</h4>
+                        <span class="timeline-period">2025 - Present</span>
+                        <p class="timeline-description">
+                            Leading development of enterprise-scale web applications using React, Node.js, and cloud technologies. 
+                            Mentoring junior developers and implementing best practices for code quality and performance.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Frontend Developer</h3>
+                        <h4 class="timeline-company">TECH-LEAD</h4>
+                        <span class="timeline-period">2024 - 2025</span>
+                        <p class="timeline-description">
+                            Developed responsive web applications with modern JavaScript frameworks. Collaborated with 
+                            design teams to implement pixel-perfect UI components and ensure optimal user experience.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Web Developer</h3>
+                        <h4 class="timeline-company">While HACKTHONS</h4>
+                        <span class="timeline-period">2023 - 2024</span>
+                        <p class="timeline-description">
+                            Built and maintained websites using HTML, CSS, and JavaScript. Gained experience in 
+                            version control, agile development, and client communication.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://uploads.onecompiler.io/43pdbrrr7/43pnsqe75/Screenshot%20(571).png" alt="Portfolio Project">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://myportfolio_aishu.onecompiler.app/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/yourusername/ecommerce-project" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">MY portfolio</h3>
+                        <p class="project-description">Using Html,css JavaScript - project-portfolio</p>
+                        <div class="project-tags">
+                            <span class="tag">Html</span>
+                            <span class="tag">Css</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <img src="https://uploads.onecompiler.io/43pdbrrr7/43pnsqe75/Screenshot%20(523).png" alt="Task Manager">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://projects-htcgkoqhv-aishwarya-sais-projects.vercel.app/" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Aishvaryasai-05/Login-page" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Simple login page</h3>
+                        <p class="project-description">Cross-platform task management application</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript Native</span>
+                            <span class="tag">Css</span>
+                            <span class="tag">Html</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://uploads.onecompiler.io/43pdbrrr7/43pnsqe75/Screenshot%20(523).png" alt="Analytics Dashboard">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://your-analytics-demo.com" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/yourusername/analytics-dashboard" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Analytics Dashboard -demo</h3>
+                        <p class="project-description">Real-time data visualization and analytics platform</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">D3.js</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400?text=Brand+Identity" alt="Brand Identity">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://your-portfolio-demo.com" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://behance.net/yourusername" target="_blank" class="project-link"><i class="fab fa-behance"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Brand Identity Design-demo</h3>
+                        <p class="project-description">Complete brand identity and visual design system</p>
+                        <div class="project-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Illustrator</span>
+                            <span class="tag">Branding</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section (fixed ID) -->
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="section-title">my Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">BTECH</h3>
+                        <h4 class="timeline-company">kakinada intitute of Engineering and technology for women</h4>
+                        <span class="timeline-period">2023-2027</span>
+                        <p class="timeline-description">
+                            I am currently pursuing a Bachelor's degree in Artifical intelligence and Data science at kakinada
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">INTERMEDIATE</h3>
+                        <h4 class="timeline-company">Sri prakash junior college</h4>
+                        <span class="timeline-period">2021-2023</span>
+                        <p class="timeline-description">
+                            I completed my class 12 education at Sri prakash junior & Degree college,Payakaraopeta,where i studied MPC in class 12.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">SCHOOL</h3>
+                        <h4 class="timeline-company">Siddartha high school</h4>
+                        <span class="timeline-period">2020 - 2021</span>
+                        <p class="timeline-description">
+                           I completed my class 10 education at Siddartha high school (E.M),Payakaraopeta.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-subtitle">Let's work together</h3>
+                    <p class="contact-description">
+                        I'm always interested in new opportunities and exciting projects. 
+                        Whether you have a question or just want to say hi, feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>aishsatya77@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Andhra pradesh, India</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required class="form-input">
+                        <label for="name" class="form-label">Full Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required class="form-input">
+                        <label for="email" class="form-label">Email Address</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required class="form-input">
+                        <label for="subject" class="form-label">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required class="form-input form-textarea"></textarea>
+                        <label for="message" class="form-label">Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; <span id="current-year"></span> Portfolio. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/Aishvaryasai-05" target="_blank" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ayinam-aishwarya-sai-5b9a86292" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="http://www.youtube.com/@Aishusai25" target="_blank" class="social-link" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
